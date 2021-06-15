@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Context } from "./Context";
+import Form from "./components/FormComponent";
+import FetchJoke from "./components/FetchJokeComponent";
+import styled from "styled-components";
+import "./App.css";
+
+const Title = styled.h1`
+  font-size: 2em;
+  text-align: left;
+  color: #ff03af;
+  font-weight: 500;
+
+  @media (max-width: 600px) {
+    text-align: center;
+    font-size: 1.4em;
+  }
+`;
+
+const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+`;
 
 function App() {
+  const [splittedEmails, setSplittedEmails] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context.Provider value={[splittedEmails, setSplittedEmails]}>
+      <Wrapper>
+        <Title>Jokes Generator</Title>
+        <Form />
+        <FetchJoke />
+      </Wrapper>
+    </Context.Provider>
   );
 }
 

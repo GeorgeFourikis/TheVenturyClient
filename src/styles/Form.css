@@ -1,0 +1,78 @@
+.FloatContainer {
+  border: 0px solid #fff;
+  padding: 10px;
+  margin: 0 0 10% 0;
+}
+
+.FormContainer {
+  width: 70%;
+  float: left;
+}
+
+.FriendsContainer {
+  width: 30%;
+  float: left;
+}
+
+.FormTitle {
+  /* position: absolute; */
+  /* margin: 0 5%; */
+  /* width: 415px; */
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 18px; */
+  line-height: 21px;
+  color: white;
+}
+
+.TextArea {
+  /* position: absolute; */
+  /* margin: 0 5%; */
+  border: 0px solid #fff;
+
+  width: 80%;
+  height: 123px;
+
+  /* Gray 6 */
+
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+.SubmitEmail {
+  /* position: absolute; */
+  border: 0px solid #fff;
+
+  width: 100px;
+  height: 50px;
+  margin: 1% 0;
+  background: #76ffd6;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.FriendsTitle {
+  /* position: absolute; */
+  width: 415px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 18px; */
+  line-height: 21px;
+  color: white;
+}
+
+.FriendList {
+  width: 415px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 18px; */
+  line-height: 21px;
+  color: white;
+}

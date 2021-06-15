@@ -1,0 +1,43 @@
+.JokeContainer {
+  position: fixed;
+  color: white;
+  border: 0px solid #fff;
+  padding: 10px;
+  margin: 5% 0 10% 0;
+  width: 100%;
+  height: 100%;
+  /* font-size: 1.3em; */
+}
+
+.JokeBox {
+  /* border: 0px solid #f2f2f2;
+  min-width: 80%;
+  min-height: 15%;
+  color: black;
+  background: #f2f2f2;
+  border-radius: 10px; */
+  position: fixed;
+  width: 80%;
+  height: 10%;
+  padding: 1% 0 1% 0;
+  border: 0px solid #f2f2f2;
+  background: #f2f2f2;
+  color: black;
+  box-sizing: content-box;
+  border-radius: 10px;
+}
+
+.JokeContent {
+  text-align: center;
+}
+
+.JokeButton {
+  border: 0px solid #fff;
+  width: 15%;
+  height: 50px;
+  font-size: 1.1em;
+  font-weight: 700;
+  background: #76ffd6;
+  border-radius: 10px;
+  margin-top: 7%;
+}
